@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS person (
+    id BIGINT(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    gender VARCHAR(6) NOT NULL
+);
+
